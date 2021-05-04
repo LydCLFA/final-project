@@ -9,4 +9,6 @@ Design problem: I was taked with designing a timeline website showcasing the dif
 
 Process section: I looked at some of the UCB website to get ideas of how the design should be then once the design was finalized I created the prototype to have as visual guide of what each webpage should look like.  I did a lot of Google search to figure out how to create a responsive website that mirrors what the prototype looks like.  I used the Bootstrap grid system to layout and align content.  I also used the "inspect" tool to get help from other website's design.
 
-Solution section:
+Solution section: I created a simple design that slightly mirrors a newspaper layout.  The Homepage was like the front page of a newspaper.  The decades pages had two column layout like story sections of a newspaper. 
+
+Software: VSCode, inVision, Sketch, Photoshop

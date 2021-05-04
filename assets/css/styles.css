@@ -51,9 +51,15 @@ header {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    display: none;
+    display: black;
     position: absolute;
-    background-color: #f1f1f1;
+    right: 0;
+    top: 30px;
+    background-color: #859438;
+    color: black;
+    font: 36px;
+    padding-right: 16px;
+    padding-bottom: 10px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -62,7 +68,6 @@ header {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
@@ -70,10 +75,29 @@ header {
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd}
 
+ul {
+  list-style-type: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
     margin: 0;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .img-responsive {
@@ -117,6 +141,7 @@ body {
 
 .seal {
     width: 70px;
+    padding-top: 18px;
 }
 
 .hp-figure {
@@ -135,7 +160,7 @@ body {
 }
 
 figcaption {
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 footer a {
@@ -147,14 +172,18 @@ footer {
     background-color: #00B0DA;
     padding: 25px;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
      
 }
+
+li {
+  display: inline-block;
+}
+
 a:visited {
     color: white;
   }
 
 .icon {
     width: 50px;
-    float: right;
 }
