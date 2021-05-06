@@ -19,11 +19,15 @@
         <img class="logo" src="./assets/images/ucbe130-logo.png" alt="UCBE 130 years logo"/>
         </div>
         <div class="col">
-        <div class="dropdown" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-            <nav><ul class="dropdown-content">
+            <div class="dropdown" onclick="myFunction(this)">
+                <button class="dropbtn" onclick="mybutton(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </button>
+                </div>
+         
+                <nav><ul id="myDropdown" class="dropdown-content">
                 <li><a href="index.html">Homepage</a></li>
                 <li><a href="1891-1910.html">1891-1910</a></li>
                 <li><a href="1911-1930.html">1911-1930</a></li>
@@ -92,6 +96,8 @@
     <script>function myFunction(x) {
         x.classList.toggle("change");
       }
-    </script>
+    function mybutton(x) {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }</script>
     </body>
     </html>

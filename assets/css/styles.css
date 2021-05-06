@@ -37,13 +37,19 @@ header {
     transform: rotate(45deg) translate(-9px, -14px) ;
   }
 
+  button {
+    background: transparent;
+    border: none;
+    float: right;
+  }
+  
   .dropbtn {
     cursor: pointer;
   }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #859438;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -62,10 +68,10 @@ header {
   }
 
   .dropdown-content {
-    display: black;
+    display: none;
     position: absolute;
-    right: 0;
-    top: 30px;
+    right: 15px;
+    top: 35px;
     background-color: #859438;
     color: black;
     font: 36px;
@@ -78,6 +84,11 @@ header {
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd}
+
+  .show {
+    display:inline-block;
+    width: 260px;
+  }
 
 ul {
   list-style-type: none;
