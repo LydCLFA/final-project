@@ -36,6 +36,11 @@ header {
     -webkit-transform: rotate(45deg) translate(-9px, -14px) ;
     transform: rotate(45deg) translate(-9px, -14px) ;
   }
+
+  .dropbtn {
+    cursor: pointer;
+  }
+
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
@@ -153,6 +158,16 @@ body {
     width: 770px;
 }
 
+.hero-figure {
+  max-width: 100%;
+  width: 270px;
+}
+
+.hero-w-figure{
+  max-width: 100%;
+  width: 1170px;
+}
+
 .figure {
     max-width: 100%;
     width: 570px;
@@ -185,4 +200,5 @@ a:visited {
 
 .icon {
     width: 50px;
+    float: right;
 }
